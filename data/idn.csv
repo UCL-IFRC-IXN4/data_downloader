@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,33177,PUTING BELIUNG,2019/12/31,0,0,0,0,0,0,0,0,0
 1,33176,PUTING BELIUNG,2019/12/31,0,0,0,0,0,0,0,0,0
 2,33175,BANJIR,2019/12/31,0,0,0,0,120,0,0,0,0

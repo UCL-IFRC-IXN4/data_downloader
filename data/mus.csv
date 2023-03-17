@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,3599,FLASH FLOODS,2012/12/31,0,0,0,0,0,0,0,0,0
 1,3598,FLASH FLOODS,2012/12/31,0,0,0,0,0,0,0,0,0
 2,3634,FLASH FLOODS,2012/12/30,0,0,0,0,0,0,0,0,0

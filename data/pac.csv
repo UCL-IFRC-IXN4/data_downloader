@@ -1,4 +1,4 @@
-,Serial,Event,Country,Country Code,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Country,Country Code,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,3994.0,DR - Drought,Tuvalu,TUV,2022/8/0,0,0,0,0,0,0,0,0.0,0
 1,3993.0,DR - Drought,Tuvalu,TUV,2021/9/8,0,0,0,0,0,0,0,0.0,0
 2,3992.0,TC - Tropical Cyclone,Tuvalu,TUV,2020/1/20,0,0,0,0,0,0,200,0.0,0

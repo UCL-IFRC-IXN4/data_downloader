@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,424,RAINSTORM,2016/12/17,0,0,0,0,11,0,0,0,0
 1,423,RAINSTORM,2016/12/17,0,0,0,0,0,0,0,0,0
 2,422,STRONG WIND,2016/12/17,0,0,0,0,0,0,0,0,0

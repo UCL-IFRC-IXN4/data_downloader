@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,34607,DESLIZAMIENTO,2020/8/30,0,0,0,0,5,0,0,0,0
 1,34606,DESPRENDIMIENTO DE TECHO,2020/8/29,0,0,0,0,18,0,0,0,0
 2,34605,CAÍDA DE ARBOL,2020/8/29,0,0,0,0,5,0,0,0,0

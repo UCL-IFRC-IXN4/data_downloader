@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,1602,Tempête,2013/9/11,0,0,1,0,0,0,3,0,0
 1,1601,Tempête,2013/8/30,0,0,1,0,0,0,3,0,0
 2,1600,Tempête,2013/8/27,1,0,0,0,0,0,0,0,0

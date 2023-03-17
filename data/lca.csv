@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,316,STORM,2008/8/15,0,0,0,0,0,0,0,0,0
 1,312,LANDSLIDE,2011/8/1,0,0,0,1,0,0,0,0,0
 2,310,LANDSLIDE,2008/10/14,0,0,0,0,0,0,0,0,0

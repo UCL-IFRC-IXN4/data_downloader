@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,2015-00530,Colapso estructural,2015/11/7,0,0,0,0,0,0,0,0,0
 1,2015-00167,Inundación,2015/5/28,0,0,0,16,0,0,0,0,0
 2,2015-00166,Inundación,2015/5/24,0,0,0,0,60,0,0,0,0

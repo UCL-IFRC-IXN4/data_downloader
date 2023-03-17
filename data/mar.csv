@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,766,Feux de Forêts,2003/9/24,0,0,0,0,0,0,0,0,0
 1,765,Feux de Forêts,2003/9/16,0,0,0,0,0,0,0,0,0
 2,764,Feux de Forêts,2003/7/24,0,0,0,0,0,0,0,0,0

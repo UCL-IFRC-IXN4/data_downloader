@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,7344,2,2018/9/10,0,0,0,0,8,0,0,0,0
 1,7343,2,2018/8/30,0,0,0,0,8,0,0,0,0
 2,7342,2,2018/8/30,0,0,0,0,8,0,0,0,0

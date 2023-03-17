@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,198,COASTAL EROSION,2008/10/15,0,0,0,0,0,0,0,0,0
 1,197,BIOLOGICAL,1978/0/0,0,0,0,0,0,0,0,0,600000
 2,202,EPIDEMIC,1854/7/0,193,0,0,0,0,0,0,0,0

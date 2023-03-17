@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,3162,Spill,2013/12/25,0,0,0,0,10,0,0,0,0.0
 1,3159,Flooding,2013/12/25,0,0,0,0,0,0,0,0,0.0
 2,3158,Flooding,2013/12/25,0,0,0,0,5,0,0,0,0.0

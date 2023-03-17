@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,2008-00044,Inundation,2008/10/16,0,0,0,0,96,96,0,0.0,0.0
 1,2008-00042,Inundation,2008/10/16,0,0,0,0,27,13,0,0.0,0.0
 2,2008-00041,Inundation,2008/10/16,0,0,0,0,42,14,0,0.0,0.0

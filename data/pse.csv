@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,461,عاصفة,2013/1/8,1,1,0,0,150,0,0,0,0
 1,460,فيضان,2012/12/15,0,0,0,0,0,0,0,0,0
 2,459,اخرى,2012/7/26,0,12,0,0,0,0,0,0,0

@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,15271,FIRE,2021/11/29,0,0,0,0,0,0,0,0,0.0
 1,15269,FIRE,2021/11/27,0,0,0,0,0,0,0,0,0.0
 2,15265,FIRE,2021/11/19,0,0,0,0,0,0,0,0,0.0

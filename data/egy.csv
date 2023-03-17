@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,84,سيولة,1994/1/1,0,0,0,0,0,0,0,0,0.0
 1,82,زلزال,1992/10/12,0,0,0,0,0,0,0,0,0.0
 2,81,زلزال,1992/10/12,0,0,0,0,0,0,0,0,0.0

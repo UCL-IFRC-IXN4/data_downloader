@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,45664,INONDATION,2008/8/1,0,0,0,0,619,0,0,0,0
 1,45663,INONDATION,2008/8/1,0,0,0,0,48,0,0,0,0
 2,45662,INONDATION,2008/8/1,0,0,0,0,2239,0,0,0,0

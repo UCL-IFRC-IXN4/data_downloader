@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,9123,CHEIAS,2022/11/24,19600,0,0,0,0,0,0,0.0,0
 1,45669,EPIDEMIA,2009/0/0,5,0,0,0,6393,0,0,0.0,0
 2,45768,EPIDEMIA,2007/0/0,0,0,0,0,1927,0,0,0.0,0

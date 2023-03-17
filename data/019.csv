@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,14268,FLOOD,2013/10/23,0,0,0,0,86000,0,22799,95557583,5733455000.0
 1,14267,FLOOD,2013/10/23,2,0,0,0,984000,0,3856,89075916,5344555000.0
 2,14266,FLOOD,2013/10/23,1,0,0,0,57050,0,20650,24238000,1454280000.0

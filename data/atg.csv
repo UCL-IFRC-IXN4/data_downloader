@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,552,RAINS,2003/8/21,0,0,0,0,1325,0,0,0,0
 1,550,RAINS,2010/9/1,0,0,0,0,1638,0,0,0,0
 2,549,RAINS,2010/9/1,0,0,0,0,3125,0,0,0,0

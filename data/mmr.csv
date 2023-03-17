@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,OTR 28775,AUTRES,2018/0/0,0,0,0,705,0,132,0,0.0,0.0
 1,OTR28386,AUTRES,2018/7/7,0,1,0,0,0,0,0,0.0,0.0
 2,OTR28345,AUTRES,2018/7/10,0,0,0,12,0,0,0,0.0,0.0

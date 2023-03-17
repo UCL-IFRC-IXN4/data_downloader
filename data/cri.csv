@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,2019-00101,Lluvias,2019/9/27,0,0,0,0,0,0,7,0.0,0
 1,2019-00100,Lluvias,2019/9/27,0,0,0,0,0,0,0,0.0,0
 2,2019-00099,Inundación,2019/9/7,0,0,0,0,0,0,15,0.0,0

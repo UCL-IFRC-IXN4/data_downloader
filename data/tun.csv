@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,509,GRELE,2012/7/22,0,0,0,0,0,0,0,0,0.0
 1,503,GRELE,2012/5/8,0,0,0,0,0,0,0,0,0.0
 2,500,GRELE,2012/6/4,0,0,0,0,0,0,0,0,0.0

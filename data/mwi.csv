@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,3136,HEAVY WINDS,2018/6/6,4,52,0,0,0,0,0,0,0
 1,3135,FIRE,2018/4/15,0,0,0,0,0,0,0,0,0
 2,3134,FLOODS,2018/4/14,3,0,0,0,0,0,0,0,0

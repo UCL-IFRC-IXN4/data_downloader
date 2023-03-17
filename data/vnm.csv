@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,1471,Lũ,2019/8/4,5,3,0,0,0,0,0,0,0.0
 1,81107,Bão,2008/11/7,0,0,0,0,0,0,0,0,1702500000.0
 2,81029,Lũ,2008/10/29,1,0,0,0,0,0,0,0,11463500000.0

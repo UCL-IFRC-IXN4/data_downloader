@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,St2018,ខ្យល់ព្យុះ,2018/5/1,0,2,0,0,0,0,0,0,0
 1,St2019,ខ្យល់ព្យុះ,2018/4/5,0,0,0,0,0,0,0,0,0
 2,St2018,ខ្យល់ព្យុះ,2018/4/25,0,0,0,0,0,0,0,0,0

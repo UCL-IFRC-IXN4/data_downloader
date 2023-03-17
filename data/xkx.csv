@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,52,EARTHQUAKE,1755/0/0,0,0,0,0,0,0,0,0,0.0
 1,541,FLOOD,2012/8/2,0,0,0,0,0,0,0,0,0.0
 2,540,FOREST FIRE,2012/8/25,0,0,0,0,0,0,0,0,0.0

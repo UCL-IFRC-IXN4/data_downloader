@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,2747,CYCLONES,2018/7/3,2,0,0,576,0,576,0,0.0,0
 1,2746,CYCLONES,2018/7/3,2,0,0,0,0,0,0,0.0,0
 2,2745,CYCLONES,2018/7/3,0,0,0,80,0,80,0,0.0,0

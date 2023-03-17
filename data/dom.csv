@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,2112,Incendio,1966/12/11,0,0,0,0,0,0,0,0,0
 1,2111,Incendio,1966/10/10,1,0,0,0,0,0,0,0,0
 2,2110,Incendio,1966/9/2,0,0,0,0,0,0,0,0,0

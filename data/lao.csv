@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,2302,ໄຟໄໝ້ປ່າ,2010/0/0,0,0,0,0,0,0,0,0.0,529930000.0
 1,2300,ນ້ຳຖ້ວມ,2010/4/17,0,0,0,0,38,0,0,0.0,12270000.0
 2,2299,ອັກຄີໄພ,2010/7/7,0,0,0,0,7,0,0,0.0,30000000.0

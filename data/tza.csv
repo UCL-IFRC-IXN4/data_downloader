@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,2170,STRONG WINDS,2016/3/22,0,0,0,80,80,0,0,5664.30082,12342000.0
 1,2170,FLOOD,2020/4/17,0,0,0,0,0,0,0,0.0,0.0
 2,2169,STRONG WINDS,2016/1/21,0,0,0,17,20,0,0,0.0,0.0

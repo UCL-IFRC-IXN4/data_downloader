@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,7083,حادثة,2023/2/27,3,3,0,0,0,0,0,0,0.0
 1,7082,حادثة,2023/2/20,0,2,0,0,0,0,0,0,0.0
 2,7081,حادثة,2023/2/19,0,4,0,0,0,0,0,0,0.0

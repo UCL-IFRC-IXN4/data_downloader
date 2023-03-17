@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,2014-00014,Inundation,2014/12/15,0,0,0,0,0,0,0,0.0,0.0
 1,2014-00012,Inundation,2014/12/15,0,0,0,0,0,0,0,0.0,0.0
 2,2014-00011,Inundation,2014/12/15,0,0,0,0,0,0,0,0.0,0.0

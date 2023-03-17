@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,396,STORM,2019/4/15,0,0,0,4,4,0,0,1036.0,14500.0
 1,391,STORM,2018/11/21,1,1,0,97,379,0,0,211500.0,2960000.0
 2,390,STORM,2018/12/8,0,0,0,17,44,0,0,48571.0,680000.0

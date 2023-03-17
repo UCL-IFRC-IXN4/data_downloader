@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,18478,سيل,2004/12/13,0,0,0,0,0,0,0,0,0.0
 1,18477,سيل,2004/2/4,0,0,0,0,0,0,0,0,0.0
 2,18476,سيل,2004/1/14,0,0,0,0,0,0,0,0,0.0

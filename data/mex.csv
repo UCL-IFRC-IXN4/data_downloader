@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,2013-02786,Granizada,2013/6/14,0,0,0,0,0,0,0,0,0
 1,2013-02785,Helada,2013/12/27,0,0,0,0,0,0,0,0,0
 2,2013-02784,Helada,2013/12/27,0,0,0,0,0,0,0,0,0

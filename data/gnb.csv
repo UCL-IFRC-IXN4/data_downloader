@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,145,TEMPESTADE DE VENTO,2017/7/8,2,1962,0,0,0,0,0,0,0
 1,144,TEMPESTADE DE VENTO,2017/9/0,0,0,0,0,0,0,0,0,0
 2,143,TEMPESTADE DE VENTO,2017/9/0,0,0,0,0,0,0,0,0,0

@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,1312,ÉPIDÉMIE,2009/4/0,0,0,0,0,0,0,0,0,0
 1,1311,ÉPIDÉMIE,2009/11/0,0,0,0,0,0,0,0,0,0
 2,1310,ÉPIDÉMIE,2009/11/0,0,0,0,0,0,0,0,0,0

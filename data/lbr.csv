@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,120,ANIMAL INCIDENT,2016/9/28,0,0,0,0,8,0,0,0,0
 1,548,EPIDEMIC,2014/9/0,2,0,0,0,0,0,0,0,0
 2,547,EPIDEMIC,2014/9/0,7,0,0,0,0,0,0,0,0

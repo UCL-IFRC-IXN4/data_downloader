@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,560,Tornade,2011/3/24,0,0,0,0,0,0,0,0.0,0
 1,561,Tornade,2010/5/27,0,0,0,0,0,0,0,0.0,0
 2,562,Tornade,2010/3/13,0,0,0,0,72,0,0,0.0,0

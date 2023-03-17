@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,4173,EARTHQUAKE,2002/1/1,21,214,0,0,0,0,0,0,0
 1,4172,WINDSTORM,2001/7/12,0,2,0,0,0,0,0,0,0
 2,4171,RAINS,2000/2/30,1,0,0,0,0,0,0,0,0

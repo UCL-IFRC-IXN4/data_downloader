@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,982,EPIDEMIA COVID-19 Reg Geral,2021/2/23,6,0,0,0,0,0,0,0,0
 1,981,INUNDAÇÃO,2019/12/28,0,0,0,120,12,120,0,0,0
 2,980,INUNDAÇÃO,2019/10/26,0,0,0,85,0,0,0,0,0

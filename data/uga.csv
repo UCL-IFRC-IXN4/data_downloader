@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,10742,EPIDEMIC,2020/3/24,0,9,0,0,0,0,0,0,0
 1,7122,FLOOD,1933/0/0,25,0,0,0,0,0,0,0,0
 2,7124,HAILSTORM,2011/9/14,0,0,0,0,0,0,0,0,0

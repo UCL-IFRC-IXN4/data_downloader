@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,637,FLOOD,2022/2/22,0,0,0,0,0,0,0,0.0,0.0
 1,641,LANDSLIDE,2021/0/0,0,0,0,0,0,0,0,0.0,0.0
 2,629,URBAN / RURAL FIRE,2020/9/12,0,0,0,0,0,0,0,4320.54,3985.0

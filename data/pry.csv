@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,2017-00073,Helada,2017/7/21,0,0,0,0,0,0,0,0,0
 1,1981-00014,Incendio,1981/9/4,0,0,0,0,0,0,0,0,0
 2,1981-00013,Incendio,1981/8/12,0,2,0,0,0,0,0,0,0

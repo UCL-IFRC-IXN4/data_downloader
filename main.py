@@ -14,24 +14,37 @@ country_codes = ['alb','ago','atg','arg','brb','blz','btn','bol','bfa','khm','ch
                 'hnd','ng_oy','idn','irq','irn','jam','jor','ken','xkx','lao','lbn','lbr','mdg','mwi','mdv','mli','mus','mex','mng','mne','mar','moz','mmr','npl','nic','ner','019','pac','pak',
                 'pse','pan','pry','per','rwa','kna','lca','vct','sen','srb','syc','sle','esp','lka','syr','033','tls','tgo','tto','tun','tur','uga','tza','ury','005','ven','vnm','yem','zmb']
 
-col = ["Serial","Event","Year","Month","Day","Deaths","Injured","Missing","Directly Affected","Indirectly Affected","Relocated","Evacuated","Losses (USD)","Losses (Local)",'na']
-col_pac = ["Serial","Event","Country","Country Code","Year","Month","Day","Deaths","Injured","Missing","Directly Affected","Indirectly Affected","Relocated","Evacuated","Losses (USD)","Losses (Local)",'na']
+col = ["Serial","Type","Year","Month","Day","Deaths","Injured","Missing","Directly Affected","Indirectly Affected","Relocated","Evacuated","Losses (USD)","Losses (Local)",'na']
+col_pac = ["Serial","Type","Country","Country Code","Year","Month","Day","Deaths","Injured","Missing","Directly Affected","Indirectly Affected","Relocated","Evacuated","Losses (USD)","Losses (Local)",'na']
 
 def get_csv(country_code):
+
+    # generate url (pac needs country column)
     if country_code == 'pac':
         url = front_url + "pac" + back_url_pac
     else:
         url = front_url + country_code + back_url
 
+
+    # 'get' url with requests library
     r = requests.get(url, allow_redirects = True)
+
+    # save content with name 
     file_name = country_code + '.xls'
     open(file_name, 'wb').write(r.content)
+
+    # convert to .csv file
     os.rename(file_name, country_code + '.csv')
 
 def clean_col(country_code):
+
+    # put into pandas dataframe
     df = pd.read_csv(country_code + ".csv",on_bad_lines='skip',skiprows = 4, sep = '\t')
 
+    # remove unecessary column
     df.drop("DataCards", inplace=True, axis=1)
+
+    # rename columns
     if country_code == 'pac':
         df.columns = col_pac
     else:
@@ -46,9 +59,12 @@ def clean_col(country_code):
     df.drop("Month", inplace=True, axis=1)
     df.drop("Day", inplace=True, axis=1)
 
+    # remove unecessary column
     df.drop("na", inplace=True, axis=1)
 
-    #print(df.head())
+    print(df.head())
+
+    #update csv file with new dataframe
     df.to_csv(country_code + ".csv")
 
 for country_code in country_codes:
@@ -57,8 +73,7 @@ for country_code in country_codes:
 
 
 
-
-
-
+# Sort out languages
+# Comment 
 
 

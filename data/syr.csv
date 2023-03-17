@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,2005-13-17207,FIRE,2005/8/18,0,0,0,0,0,0,0,0,0
 1,2006-13-17197,FIRE,2006/6/15,0,0,0,0,0,0,0,0,0
 2,2006-13-17196,FIRE,2006/6/8,0,0,0,0,0,0,0,0,0

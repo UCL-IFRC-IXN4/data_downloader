@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,3446,Vehicle Accident,2011/1/5,1,5,0,0,13,0,0,0,0.0
 1,3445,Vehicle Accident,2011/1/4,1,5,0,0,13,0,0,0,0.0
 2,3444,Vehicle Accident,2011/7/4,0,2,0,0,2,0,0,0,0.0

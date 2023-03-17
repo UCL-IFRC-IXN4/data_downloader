@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,2015-00509,Inundación,2015/10/20,0,0,0,30,180,0,0,0,0
 1,2015-00508,Inundación,2015/10/20,0,0,0,47,282,0,0,0,0
 2,2015-00507,Inundación,2015/10/20,0,0,0,115,690,0,0,0,0

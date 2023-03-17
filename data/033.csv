@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,16730,ACCIDENT,2011/12/31,2,0,0,0,0,0,0,0,0
 1,16729,ACCIDENT,2011/12/31,1,4,0,0,0,0,0,0,0
 2,16728,OTHER,2011/12/28,6,0,0,0,0,0,0,0,0

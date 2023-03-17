@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,2015-00245,Plaga,2015/3/0,0,0,0,0,0,0,0,0.0,20810344.35
 1,2015-00244,Plaga,2015/3/0,0,0,0,0,0,0,0,0.0,1546580.87
 2,2015-00243,Plaga,2015/3/0,0,0,0,0,0,0,0,0.0,1139241.73

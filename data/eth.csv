@@ -1,4 +1,4 @@
-,Serial,Event,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
+,Serial,Type,Date (YMD),Deaths,Injured,Missing,Directly Affected,Indirectly Affected,Relocated,Evacuated,Losses (USD),Losses (Local)
 0,29577,CONFLICT,2017/9/15,0,0,0,0,0,0,0,0,0
 1,29576,CONFLICT,2017/11/15,0,0,0,0,0,0,0,0,0
 2,29575,CONFLICT,2017/9/15,0,0,0,0,0,0,0,0,0
