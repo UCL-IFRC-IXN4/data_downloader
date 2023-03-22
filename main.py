@@ -1,6 +1,7 @@
 import os
 import requests
 import pandas as pd
+import string
 
 os.chdir('data')
 
@@ -62,18 +63,57 @@ def clean_col(country_code):
     # remove unecessary column
     df.drop("na", inplace=True, axis=1)
 
-    print(df.head())
-
     #update csv file with new dataframe
     df.to_csv(country_code + ".csv")
+
+
+def translate_file(country_code):
+
+    # put csv into dataframe
+    df = pd.read_csv(country_code + ".csv",on_bad_lines='skip')
+
+    # change dir
+    os.chdir('..')
+    os.chdir('transl_dict')
+
+    type_ind = df.columns.get_loc("Type")
+
+    # iterate through .csv files to translate all strings under "Type"
+    for i in range(len(df)):
+
+        # see if type is made up of latin alphabets
+        # initialise translation dataframe from /transl_dict/ based on first letter/language
+        first_char = str(df.iloc[i,type_ind])[0]
+        if first_char in list(string.ascii_letters):
+            first_char = first_char.lower()
+            df_transl = pd.read_csv(first_char + ".csv",on_bad_lines='skip')
+        else:
+            df_transl = pd.read_csv('not_lat.csv',on_bad_lines='skip')
+
+        # iterate through translation dataframe to see if there are matches for the disaster type in a different language
+        # if yes, swap with English translation
+        for j in range(len(df_transl)):
+            if df_transl.iloc[j,0] == df.iloc[i,type_ind]:
+                df.iloc[i,type_ind] = df_transl.iloc[j,1]
+                break
+
+
+    # change back dir + push dataframe to csv file
+    os.chdir('..')
+    os.chdir('data')
+    df.to_csv(country_code + ".csv")
+
+
+
+
 
 for country_code in country_codes:
     get_csv(country_code)
     clean_col(country_code)
+    translate_file(country_code)
 
 
+# 18mins 
 
-# Sort out languages
-# Comment 
-
+# comment
 
