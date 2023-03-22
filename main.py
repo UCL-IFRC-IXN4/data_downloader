@@ -113,7 +113,3 @@ for country_code in country_codes:
     translate_file(country_code)
 
 
-# 18mins 
-
-# comment
-
