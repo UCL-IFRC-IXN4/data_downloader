@@ -2,7 +2,9 @@ import os
 import requests
 import pandas as pd
 import string
-
+from IFRC_data_downloader import IFRC_data_downloader
+from EMDAT_data_downloader import EMDAT_data_downloader
+from IDMC_data_downloader import IDMC_data_downloader
 os.chdir('data')
 
 
@@ -112,4 +114,7 @@ for country_code in country_codes:
     clean_col(country_code)
     translate_file(country_code)
 
-
+#download data from other sources
+IFRC_data_downloader()
+EMDAT_data_downloader()
+IDMC_data_downloader()
