@@ -184,7 +184,10 @@ def clean_col(country_code):
 
     # merge columns [Year,Month,Day] into single column [Date (YMD)]
     day_ind = df.columns.get_loc("Day")
-    df.insert(day_ind + 1, "Date (YMD)", "NA")
+    df.insert(day_ind + 1, "Date", "NA")
+
+    df["Affected"] = df["Directly Affected"] + df["Indirectly Affected"]
+
     for i in range(len(df)):
         df.iloc[i, day_ind + 1] = (
             str(df.iloc[i, day_ind - 2])
@@ -200,14 +203,26 @@ def clean_col(country_code):
     # remove unecessary column
     df.drop("na", inplace=True, axis=1)
 
+    # remove data not used
+    df.drop("Serial", inplace=True, axis=1)
+    df.drop("Losses (Local)", inplace=True, axis=1)
+    df.drop("Losses (USD)", inplace=True, axis=1)
+    df.drop("Evacuated", inplace=True, axis=1)
+    df.drop("Missing", inplace=True, axis=1)
+    df.drop("Injured", inplace=True, axis=1)
+    df.drop("Directly Affected", inplace=True, axis=1)
+    df.drop("Indirectly Affected", inplace=True, axis=1)
+
+    df = df[["Type", "Date", "Affected", "Deaths", "Relocated"]]
+
     # update csv file with new dataframe
-    df.to_csv(country_code + ".csv")
+    df.to_csv(country_code + ".csv", index=False)
 
 
 def translate_file(country_code):
 
     # put csv into dataframe
-    df = pd.read_csv(country_code + ".csv", on_bad_lines="skip")
+    df = pd.read_csv(country_code + ".csv", on_bad_lines="skip", index_col=False)
 
     # change dir
     os.chdir("..")
