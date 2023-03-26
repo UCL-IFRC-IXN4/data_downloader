@@ -21,11 +21,11 @@ pip install selenium
 
 Ensure that you install a chrome webdriver and that its for the correct version of chrome installed on your machine.
 
-To check the version of chrome:
+#### To check the version of chrome:
 
-[Chrome Version](chrome://settings/help)
+[Chrome Version](https://www.google.com/intl/en_uk/chrome/update/)
 
-Webdriver installation:
+#### Webdriver installation:
 
 [Webdriver](https://sites.google.com/chromium.org/driver/)
 
@@ -54,8 +54,6 @@ def translate_file(country_code):
 ```
 
 ### Usage
-
-to do this, run this command in terminal:
 
 ```
 python3 main.py
