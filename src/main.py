@@ -7,7 +7,12 @@ from IFRC_data_downloader import IFRC_data_downloader
 from EMDAT_data_downloader import EMDAT_data_downloader
 from IDMC_data_downloader import IDMC_data_downloader
 
-os.chdir("data")
+file_prefix = ""
+if platform != "win32" or platform != "win64":
+    file_prefix += "../"
+
+
+os.chdir(file_prefix + "data")
 
 
 front_url = "https://www.desinventar.net/DesInventar/report_spreadsheet.jsp?bookmark=1&countrycode="
@@ -236,6 +241,7 @@ def translate_file(country_code):
 
 
 for country_code in country_codes:
+    print(country_code)
     get_csv(country_code)
     clean_col(country_code)
     translate_file(country_code)
