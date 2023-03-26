@@ -1,4 +1,5 @@
 import os
+from sys import platform
 import requests
 import pandas as pd
 import string
@@ -6,6 +7,10 @@ from IFRC_data_downloader import IFRC_data_downloader
 from EMDAT_data_downloader import EMDAT_data_downloader
 from IDMC_data_downloader import IDMC_data_downloader
 os.chdir('data')
+
+self.file_prefix = ""
+if platform != "win32" or platform != "win64":
+    self.file_prefix += "../"
 
 
 front_url = "https://www.desinventar.net/DesInventar/report_spreadsheet.jsp?bookmark=1&countrycode="
