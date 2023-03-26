@@ -1,4 +1,4 @@
-# data_downloader
+# Data Downloader
 
 Data downloader for DesInventar, IFRC, IDMC and EMDAT
 
