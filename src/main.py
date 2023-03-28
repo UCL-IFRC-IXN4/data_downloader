@@ -7,13 +7,10 @@ from IFRC_data_downloader import IFRC_data_downloader
 from EMDAT_data_downloader import EMDAT_data_downloader
 from IDMC_data_downloader import IDMC_data_downloader
 
-file_prefix = ""
-if platform != "win32" or platform != "win64":
-    file_prefix += "../"
-
-
-os.chdir(file_prefix + "data")
-
+cwd = os.getcwd()
+PATH = cwd[: cwd.index("/data_downloader")]
+DOWNLOADER_PATH = PATH + "/data_downloader/"
+DATA_PATH = PATH + "/data/"
 
 front_url = "https://www.desinventar.net/DesInventar/report_spreadsheet.jsp?bookmark=1&countrycode="
 back_url = "&maxhits=100&lang=EN&frompage=/definestats.jsp&bSum=Y&_stat=fichas.fechano&nlevels=1&_variables=1,fichas.evento,fichas.fechano,fichas.fechames,fichas.fechadia,fichas.muertos,fichas.heridos,fichas.desaparece,fichas.damnificados,fichas.afectados,fichas.reubicados,fichas.evacuados,fichas.valorus,fichas.valorloc"
@@ -128,6 +125,7 @@ col = [
     "Losses (Local)",
     "na",
 ]
+
 col_pac = [
     "Serial",
     "Type",
@@ -162,7 +160,9 @@ def get_csv(country_code):
 
     # save content with name
     file_name = country_code + ".xls"
-    open(file_name, "wb").write(r.content)
+    with open(os.getcwd() + "/" + file_name, "wb") as f:
+        f.write(r.content)
+    f.close()
 
     # convert to .csv file
     os.rename(file_name, country_code + ".csv")
@@ -170,8 +170,12 @@ def get_csv(country_code):
 
 def clean_col(country_code):
 
+    file_name = country_code + ".csv"
+
     # put into pandas dataframe
-    df = pd.read_csv(country_code + ".csv", on_bad_lines="skip", skiprows=4, sep="\t")
+    df = pd.read_csv(
+        file_name, on_bad_lines="skip", skiprows=4, sep="\t", index_col=False
+    )
 
     # remove unecessary column
     df.drop("DataCards", inplace=True, axis=1)
@@ -216,19 +220,19 @@ def clean_col(country_code):
     df = df[["Type", "Date", "Affected", "Deaths", "Relocated"]]
 
     # update csv file with new dataframe
-    df.to_csv(country_code + ".csv", index=False)
+    df.to_csv(file_name, index=False)
 
 
 def translate_file(country_code):
 
-    # put csv into dataframe
-    df = pd.read_csv(country_code + ".csv", on_bad_lines="skip", index_col=False)
+    file_name = country_code + ".csv"
 
-    # change dir
-    os.chdir("..")
-    os.chdir("transl_dict")
+    # put csv into dataframe
+    df = pd.read_csv(file_name, on_bad_lines="skip", index_col=False)
 
     type_ind = df.columns.get_loc("Type")
+
+    os.chdir(DOWNLOADER_PATH + "transl_dict")
 
     # iterate through .csv files to translate all strings under "Type"
     for i in range(len(df)):
@@ -250,12 +254,12 @@ def translate_file(country_code):
                 break
 
     # change back dir + push dataframe to csv file
-    os.chdir("..")
-    os.chdir("data")
-    df.to_csv(country_code + ".csv")
+    os.chdir(DATA_PATH + "/DI-data")
+    df.to_csv(country_code + ".csv", index=False)
 
 
 for country_code in country_codes:
+    os.chdir(DATA_PATH + "/DI-data")
     print(country_code)
     get_csv(country_code)
     clean_col(country_code)
